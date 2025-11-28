@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    vector<int> array = {1, 2, 4, 3, 6, 8, 5,2};
+    vector<int> array = {1, 2, 3, 4, 4 ,8, 3, 5, 1};
     int arraySize = array.size();
     vector<int> sumEven(arraySize, 0);
     for (int i = 0; i < arraySize; i ++)

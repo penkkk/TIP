@@ -20,10 +20,6 @@ int main()
             result[j] += result[j - i];
         }
     }
-    for (int i = 0; i < result.size(); i ++)
-    {
-        cout << result[i] << ' ';
-    }
     cout << endl;
     cout << result[n];
     return 0;
