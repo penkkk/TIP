@@ -23,9 +23,8 @@ int main()
             countWords.insert({helpWord, 1});
         }
     }
-    for (auto word: countWords)
-    {
-        cout << word.first << " : " << word.second << endl;
-    }
+    int count = 0;
+    count = countWords.size();
+    cout << count;
     return 0;
 }
